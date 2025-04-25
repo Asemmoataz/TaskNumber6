@@ -1,0 +1,113 @@
+*{
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+}
+.attribution a {
+    color:  hsl(228, 45%, 44%);
+}
+/* to make the big background */
+.parent {
+    width: auto;
+    height: 800px;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.child {
+    background-color: rgb(24, 24, 24);
+    color: white;
+    border-radius: 9px;
+    width: 315px;
+    height: 515px;
+    justify-content: center;
+    align-content: center;
+    display: grid;
+    gap: 30px;
+}
+/* properties to pictures */
+img {
+    width: 60px;
+    border-radius: 50%;
+    position: relative;
+    left: 38%;
+    bottom: -88px;
+}
+/* properties to each paragraph */
+.one{
+    font-weight: bold;
+    font-size: 17px;
+    text-align: center;
+    position: relative;
+    bottom:  -75px;
+}
+.two{
+    font-size: 11px;
+    text-align: center;
+    position: relative;
+    bottom: -30px;
+    color: rgb(108, 233, 50);
+}
+.three{
+    text-align: center;
+    font-size: 13px;
+    position: relative;
+    bottom: -10px;
+}
+.four,
+.five,
+.six,
+.seven,
+.eight{
+    text-align: center;
+    width: 256px;
+    background-color: rgb(51, 50, 50);
+    align-content: center;
+    border-radius: 5px;
+}
+.four{
+    position: relative;
+    height: 35px;
+    bottom: 5px;
+}
+.five{
+    position: relative;
+    height: 35px;
+    bottom: 25px;
+}
+.six{
+    position: relative;
+    height: 35px;
+    bottom: 41px;
+}
+.seven{
+    position: relative;
+    height: 35px;
+    bottom: 57px;
+}
+.eight{
+    position: relative;
+    height: 35px;
+    bottom: 70px;
+}
+button {
+    outline: none;
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+button:hover{
+    background-color: yellowgreen;
+    color: black;
+}
+
+
